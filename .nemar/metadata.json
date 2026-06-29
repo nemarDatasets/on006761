@@ -1,45 +1,146 @@
 {
   "version": "2.0",
-  "dataset_id": "on006761",
-  "source": "openneuro",
-  "source_id": "ds006761",
+  "pipeline_stage": "validated",
   "title": "Neural decoding of competitive decision-making in Rock-Paper-Scissors",
-  "authors": {
-    "Moerel, Denise": {},
-    "Grootswagers, Tijl": {},
-    "Chin, Jessica L.L.": {},
-    "Ciardo, Francesca": {},
-    "Nijhuis, Patti": {},
-    "Quek, Genevieve L.": {},
-    "Smit, Sophie": {},
-    "Varlet, Manuel": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Moerel, Denise": {
+      "orcid": "0000-0001-9677-0170"
+    },
+    "Grootswagers, Tijl": {
+      "orcid": "0000-0002-7961-5002"
+    },
+    "Chin, Jessica L.L.": {
+      "orcid": "0000-0001-7060-3374"
+    },
+    "Ciardo, Francesca": {
+      "orcid": "0000-0002-2530-3089",
+      "affiliations": [
+        {
+          "name": "Department of Psychology, University of Milan-Bicocca , Milan, 20126,"
+        }
+      ]
+    },
+    "Nijhuis, Patti": {
+      "orcid": "0000-0002-1416-305X"
+    },
+    "Quek, Genevieve L.": {
+      "orcid": "0000-0002-5905-8405"
+    },
+    "Smit, Sophie": {
+      "orcid": "0000-0002-5613-277X",
+      "affiliations": [
+        {
+          "name": "The MARCS Institute for Brain, Behaviour and Development, Western Sydney University , Sydney, 2751,"
+        }
+      ]
+    },
+    "Varlet, Manuel": {
+      "orcid": "0000-0001-5772-2061",
+      "affiliations": [
+        {
+          "name": "The MARCS Institute for Brain, Behaviour and Development, Western Sydney University , Sydney, 2751,"
+        },
+        {
+          "name": "School of Psychology, Western Sydney University , Sydney, 2751,"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006761.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/YJXKN",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1093/scan/nsaf101",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006761",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006761",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "ARC DP220103047 (MV)"
+      "funder_name": "Australian Research Council",
+      "award_number": "DP220103047"
     },
     {
-      "funder_name": "H2020 Marie Curie 893960 (FC)"
+      "funder_name": "European Commission",
+      "award_number": "H2020 Marie Curie 893960"
     },
     {
-      "funder_name": "ARC DE230100380 (TG)"
+      "funder_name": "Australian Research Council",
+      "award_number": "DE230100380"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "83.8 GB (51 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises 64-channel EEG recordings from 62 participants (31 pairs) engaged in a computerized Rock-Paper-Scissors game consisting of 480 competitive trials. The study investigates neural mechanisms underlying competitive decision-making through multivariate decoding approaches, providing insights into brain activity patterns during strategic social interactions.",
+  "methods_description": "EEG data were recorded from 62 participants organized into 31 pairs during a computerized Rock-Paper-Scissors game lasting approximately 1 hour, with 480 games played per session using 64-channel electrode montage.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "competitive behavior"
+    },
+    {
+      "term": "social neuroscience"
+    },
+    {
+      "term": "game theory"
+    },
+    {
+      "term": "Rock-Paper-Scissors"
+    },
+    {
+      "term": "multivariate pattern analysis"
+    },
+    {
+      "term": "dyadic interaction"
+    },
+    {
+      "term": "strategic behavior"
+    }
+  ],
+  "source_hash": "79f8dbe824fc6b5a35711a968b682b38797f311168f98ae77230eab57192811a"
 }
