@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006761",
+  "source": "openneuro",
+  "source_id": "ds006761",
+  "title": "Neural decoding of competitive decision-making in Rock-Paper-Scissors",
+  "authors": {
+    "Moerel, Denise": {},
+    "Grootswagers, Tijl": {},
+    "Chin, Jessica L.L.": {},
+    "Ciardo, Francesca": {},
+    "Nijhuis, Patti": {},
+    "Quek, Genevieve L.": {},
+    "Smit, Sophie": {},
+    "Varlet, Manuel": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006761.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.2",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "ARC DP220103047 (MV)"
+    },
+    {
+      "funder_name": "H2020 Marie Curie 893960 (FC)"
+    },
+    {
+      "funder_name": "ARC DE230100380 (TG)"
+    }
+  ]
+}
