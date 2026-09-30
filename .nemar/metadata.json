@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Neural decoding of competitive decision-making in Rock-Paper-Scissors",
-  "description": "This dataset contains 64-channel EEG recordings from 62 participants (31 pairs) who played a competitive, computerised version of the Rock-Paper-Scissors game across 480 games. The study investigates the neural correlates of competitive decision-making during real-time social interaction. This dataset supports research on neural decoding of strategic choices in a dyadic competitive context.",
-  "methods_description": "EEG was recorded using a 64-channel system while pairs of participants played 480 rounds of a computerised Rock-Paper-Scissors game, with each experimental session lasting approximately one hour.",
+  "description": "This dataset contains 64-channel EEG recordings from 62 participants, organized into 31 pairs, who played a computerised version of the competitive Rock-Paper-Scissors game across 480 games. It was collected to study the neural correlates of competitive decision-making and to support decoding of choices and outcomes from brain activity. Each session lasted about one hour.",
+  "methods_description": "Pairs of participants played 480 games of a computerised Rock-Paper-Scissors task while 64-channel EEG was recorded from both players. The experiment lasted approximately 1 hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -55,24 +55,21 @@
       "term": "EEG"
     },
     {
-      "term": "Clinical Decision-Making",
+      "term": "Decision Making",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     },
     {
-      "term": "Social Interaction",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000083505"
-    },
-    {
-      "term": "competitive behavior"
+      "term": "Rock-Paper-Scissors"
     },
     {
       "term": "neural decoding"
     },
     {
-      "term": "Rock-Paper-Scissors"
+      "term": "competition"
+    },
+    {
+      "term": "social interaction"
     }
   ],
   "related_identifiers": [
@@ -108,7 +105,7 @@
       "award_number": "DP220103047"
     },
     {
-      "funder_name": "H2020 Marie Curie",
+      "funder_name": "Horizon 2020 Marie Curie",
       "award_number": "893960"
     },
     {
@@ -122,7 +119,7 @@
     "eeg"
   ],
   "sizes": [
-    "83.8 GB (51 files)"
+    "78.00 GB (51 files)"
   ],
   "formats": [
     ".DS_Store",
